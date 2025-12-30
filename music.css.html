@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player UI</title>
+  <link rel="stylesheet" href="stylemusic.css">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+<input type="checkbox" id="theme">
+<input type="checkbox" id="play">
+
+<div class="music-player">
+
+  <!-- Theme Toggle -->
+  <label for="theme" class="theme-toggle">
+    <i class="fas fa-moon"></i>
+    <i class="fas fa-sun"></i>
+  </label>
+
+  <!-- Album -->
+  <img class="album-cover"
+       src="https://images.unsplash.com/photo-1511379938547-c1f69419868d"
+       alt="Album">
+
+  <!-- Info -->
+  <h3>Lost in Sound</h3>
+  <p>Jayasri Beats</p>
+
+  <!-- Equalizer -->
+  <div class="equalizer">
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <!-- Progress (static) -->
+  <div class="progress">
+    <div class="bar"></div>
+  </div>
+
+  <!-- Controls -->
+  <div class="controls">
+    <i class="fas fa-backward"></i>
+    <label for="play" class="play-btn">
+      <i class="fas fa-play"></i>
+      <i class="fas fa-pause"></i>
+    </label>
+    <i class="fas fa-forward"></i>
+  </div>
+
+  <!-- Volume -->
+  <div class="volume">
+    <i class="fas fa-volume-down"></i>
+    <div class="vol-bar"></div>
+    <i class="fas fa-volume-up"></i>
+  </div>
+
+  <!-- Playlist -->
+  <div class="playlist">
+    <h4>Up Next</h4>
+    <div>Chill Waves</div>
+    <div>Night Drive</div>
+    <div>Soft Beats</div>
+  </div>
+
+</div>
+
+</body>
+</html>
